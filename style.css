@@ -305,10 +305,20 @@ section { padding: 120px 8vw; }
   width: 100%;
   display: block;
   background: var(--black);
-  aspect-ratio: 540 / 465;
+  aspect-ratio: 2 / 1;
 }
 
 /* ============ CLIP GRID ============ */
+.reel-sub-eyebrow {
+  max-width: 1400px;
+  margin: 64px auto 0;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 3px;
+  color: var(--mute);
+  padding-top: 24px;
+  border-top: 1px solid var(--line);
+}
 .clip-grid {
   max-width: 1400px;
   margin: 48px auto 0;
@@ -330,7 +340,7 @@ section { padding: 120px 8vw; }
 .clip video {
   width: 100%;
   display: block;
-  aspect-ratio: 540 / 465;
+  aspect-ratio: 2 / 1;
   background: var(--black);
   object-fit: cover;
 }
@@ -529,38 +539,6 @@ section { padding: 120px 8vw; }
   letter-spacing: 2px;
   color: var(--mute);
   text-transform: uppercase;
-}
-
-/* ============ ANTHEM ============ */
-.anthem {
-  background: linear-gradient(180deg, var(--ink) 0%, var(--black) 100%);
-  position: relative;
-  overflow: hidden;
-}
-.anthem::before {
-  content: '';
-  position: absolute;
-  top: 50%; left: -10%;
-  width: 700px; height: 700px;
-  background: radial-gradient(circle, var(--green-glow), transparent 60%);
-  transform: translateY(-50%);
-  opacity: 0.4;
-  pointer-events: none;
-}
-.anthem-frame {
-  max-width: 900px;
-  margin: 0 auto;
-  position: relative;
-  z-index: 1;
-  padding: 4px;
-  background: linear-gradient(135deg, var(--green) 0%, transparent 50%, var(--green) 100%);
-  border-radius: 16px;
-  box-shadow: 0 30px 80px rgba(0, 255, 90, 0.15);
-}
-.anthem-frame iframe {
-  display: block;
-  background: var(--panel);
-  border-radius: 12px;
 }
 
 /* ============ FOOTER ============ */
