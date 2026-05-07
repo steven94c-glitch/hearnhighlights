@@ -596,6 +596,7 @@ section { padding: 120px 8vw; }
   .hero-name { font-size: clamp(64px, 22vw, 130px); margin-bottom: 18px; }
   .hero-last { -webkit-text-stroke-width: 1.5px; text-shadow: 0 0 10px rgba(0, 255, 90, 0.18); }
   .hero-first { text-shadow: 0 0 20px rgba(0,0,0,0.5); }
+  .hero-video { object-position: 30% 50%; }
   .hero-meta { font-size: 11px; letter-spacing: 2px; gap: 12px; margin-bottom: 28px; }
   .hero-cta { padding: 16px 24px; font-size: 12px; letter-spacing: 2px; }
   .hero-scroll { display: none; }
